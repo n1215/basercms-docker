@@ -1,24 +1,24 @@
 baserCMS docker-compose
 ==========================
 
-### Requirements
+## Requirements
 * git
 * docker
 * docker-machine
 * docker-compose
 
-### Containers 
+## Containers 
 * web: nginx1.11
 * data: data volume
 * app: php-fpm (php5.6)
 * db: mysql5.6
 
-### Get Started
+## Get Started
     git clone https://github.com/n1215/basercms-docker
     cd basercms-docker
     sh ./init.sh  #clone baserproject/basercms repository
     docker-compose up -d
 
-### License
+## License
 MIT
  
